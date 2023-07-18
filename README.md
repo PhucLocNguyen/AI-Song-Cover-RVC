@@ -10,7 +10,16 @@ All in One Version : Youtube WAV Download, Separating Vocal, Splitting Audio, Tr
 ### Tutorial (Indonesian)
 - https://youtu.be/mcbz_n6_w_A (v1)
 - https://youtu.be/Rnp8DzH7G_k (v2)
-
+<h3>The depedencies code should look like this:</h3>
+<code>
+    #@title Install Depedencies
+%cd /content
+!apt-get -y install build-essential python3-dev ffmpeg
+!pip install pyworld==0.3.2
+!pip3 install --upgrade setuptools wheel
+!pip3 install --upgrade pip
+!pip3 install faiss-gpu fairseq gradio==3.34.0 ffmpeg ffmpeg-python praat-parselmouth pyworld numpy==1.23.5 numba==0.56.4 librosa==0.9.2</code>
+<br/>
 ### Download Youtube WAV and Splitting Audio (Stored in GDrive)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ardha27/AI-Song-Cover-RVC/blob/main/Download_Youtube_WAV_and_Splitting_Audio.ipynb)
 
