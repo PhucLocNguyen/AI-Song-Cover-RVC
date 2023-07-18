@@ -5,7 +5,8 @@ All in One Version : Youtube WAV Download, Separating Vocal, Splitting Audio, Tr
 <a href="https://trakteer.id/ardha27">
     <img src="https://cdn.trakteer.id/images/embed/trbtn-red-1.png" alt="Trakteer" height="35">
 </a>
-
+<h3>Please add this code in dependencies to avoid the error while running the reference stage</h3>
+<code>!pip install pyworld==0.3.2</code>
 ### Tutorial (Indonesian)
 - https://youtu.be/mcbz_n6_w_A (v1)
 - https://youtu.be/Rnp8DzH7G_k (v2)
