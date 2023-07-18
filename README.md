@@ -20,6 +20,7 @@ All in One Version : Youtube WAV Download, Separating Vocal, Splitting Audio, Tr
 !pip3 install --upgrade pip
 !pip3 install faiss-gpu fairseq gradio==3.34.0 ffmpeg ffmpeg-python praat-parselmouth pyworld numpy==1.23.5 numba==0.56.4 librosa==0.9.2</code>
 <br/>
+
 ### Download Youtube WAV and Splitting Audio (Stored in GDrive)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ardha27/AI-Song-Cover-RVC/blob/main/Download_Youtube_WAV_and_Splitting_Audio.ipynb)
 
